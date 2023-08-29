@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+Sans+SC:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+Sans+SC:wght@100&family=Lexend:wght@100;300;400&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -47,10 +48,10 @@ main header h1 i {
 main header h1 span {
   width: 100%;
   text-align: center;
-  font: normal 0.8vw/1 "arial";
+  font: bold 1vw/1 "Lexend";
 }
 main header p {
-  font: normal 11px/1.2 "arial";
+  font: normal 11px/1.2 "Lexend";
   color: #ddd;
   text-align: center;
 }
@@ -95,7 +96,7 @@ main section article .inner .txt {
   transition: 1s;
 }
 main section article .inner .txt h2 {
-  font: normal 2vw/1 "Alegreya Sans SC";
+  font: normal 2vw/1 "Acme";
   color: #fff;
   margin-bottom: 40px;
   transition: 1s;
@@ -110,7 +111,7 @@ main section article .inner .txt h2::after {
   transition: 1.5s;
 }
 main section article .inner .txt p {
-  font: 14px/1.4 "arial";
+  font: 14px/1.4 "Lexend";
   color: #6b6b6b;
 }
 main section article .inner figure {
@@ -142,7 +143,7 @@ main section article:hover .inner .txt h2 {
   font-size: 5vw;
 }
 main section article:hover .inner .txt h2::after {
-  width: 120px;
+  width: 250px;
   background: orange;
 }
 main section article:hover .inner figure {
@@ -188,12 +189,12 @@ main aside .txtBox {
   width: 30%;
 }
 main aside .txtBox h2 {
-  font: normal 120px/1 "alegreya sans SC";
+  font: normal 120px/1 "Acme";
   color: #ddd;
   margin-bottom: 30px;
 }
 main aside .txtBox p {
-  font: 19px/1.2 "arial";
+  font: 19px/1.2 "Lexend";
   color: #777;
 }
 main aside .vidBox {
@@ -207,7 +208,7 @@ main aside .btnClose {
   position: absolute;
   top: 150px;
   right: 5vw;
-  font: 16px/1 "arial";
+  font: 16px/1 "Lexend";
   color: orange;
   cursor: pointer;
 }
